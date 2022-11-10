@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #0c0101, #0b0e2f, #04050f);
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+canvas {
+  position: absolute;
+}
+
+svg {
+  position: absolute;
+  display: none;
+}
