@@ -43,7 +43,7 @@ for (let i = 0; i < length; i += 0.1) {
 }
 const geometry = new THREE.BufferGeometry().setFromPoints(vertices);
 const material = new THREE.PointsMaterial({
-  color: #ff0000,
+  color: #000000,
   blending: THREE.AdditiveBlending,
   size: 3,
 });
